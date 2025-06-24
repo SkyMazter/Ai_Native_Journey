@@ -1,0 +1,59 @@
+# Python
+# Virtual environment
+venv/
+.venv/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.raw
+.cache
+.pip_rewrite
+
+# Specific to Flask
+instance/ # Folder for instance-specific configuration or data (e.g., SQLite database)
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor/IDE files
+.vscode/ # VS Code settings
+.idea/   # PyCharm/IntelliJ IDEA settings
+*.swp    # Vim swap files
+*~       # Backup files
+.DS_Store # macOS specific files
+
+# Logs and databases
+*.log
+*.sqlite3 # If you use SQLite, you'll want to ignore the database file itself
+/tmp/
+
+# If you store user uploads or temporary files
+/uploads/
+/static/dist/ # If your frontend builds into a 'dist' folder inside 'static' or similar
+
+# For frontend (React) related files if it's in the same monorepo, otherwise
+# you'd have a separate .gitignore in the frontend directory.
+# This assumes your React app is in a 'frontend' directory at the root
+# of 'my-flask-react-app'.
+# Uncomment if applicable:
+# /frontend/node_modules/
+# /frontend/build/
+# /frontend/.env.local
+# /frontend/.env*.local
