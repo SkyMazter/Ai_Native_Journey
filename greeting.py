@@ -1,6 +1,12 @@
 # Simple greeting script
 # Ask the user for their name
-name = input("What is your name? ")
+name = input("Identify yourself: ")
 
 # Print a greeting using the stored name
-print(f"Hello, {name}! Nice to meet you!") 
+if name == "Oscar": 
+    print("Loading...")
+    print("Hello, Oscar! Nice to see you again!")
+else:
+    print("...")
+    print("[Error]:")
+    print("Authentification failed: I don't know you!")
