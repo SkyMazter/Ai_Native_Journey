@@ -1,5 +1,5 @@
-/* @import './base.css';
-
+@import './base.css';
+/* 
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -33,3 +33,12 @@ a,
     padding: 0 2rem;
   }
 } */
+
+body {
+  background-color: var(--primary-background);
+  color: var(--seafoam-green-900);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
